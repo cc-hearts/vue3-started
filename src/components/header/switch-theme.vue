@@ -37,6 +37,7 @@ const checked = computed(() => {
 </template>
 
 <style lang="scss">
+@use '@/assets/scss/override.scss' as *;
 @use '@/assets/scss/theme.scss' as *;
 
 .dark {
