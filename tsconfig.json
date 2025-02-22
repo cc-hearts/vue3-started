@@ -31,7 +31,8 @@
     "src/**/*.vue",
     "uno.config.ts",
     "auto-imports.d.ts",
-    "vitest.config.ts"
+    "vitest.config.ts",
+    "typed-router.d.ts"
   ],
   "references": [
     {

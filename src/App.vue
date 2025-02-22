@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import Headers from '@/components/header/headers.vue'
-import Home from '@/layouts/home'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <Headers />
-  <Home />
+  <RouterView />
 </template>
 
 <style lang="scss">
