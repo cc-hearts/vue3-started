@@ -11,13 +11,13 @@ const toGithub = () => githubUrl && window.open(githubUrl)
 
 <template>
   <header
-    class="flex justify-between items-center px-3 shrink-0"
+    class="flex shrink-0 items-center justify-between px-3"
     :class="[cssNs.cls]"
   >
     <slot name="left">
       <div />
     </slot>
-    <div class="flex text-2xl items-center" :class="[cssNs.e('icon')]">
+    <div class="flex items-center text-2xl" :class="[cssNs.e('icon')]">
       <slot name="right-icon" />
       <GithubIcon @click="toGithub" />
       <SwitchTheme />
@@ -26,6 +26,7 @@ const toGithub = () => githubUrl && window.open(githubUrl)
 </template>
 
 <style lang="scss">
+@use '@/assets/scss/override.scss' as *;
 @use '@/assets/scss/theme.scss' as *;
 
 .#{$namespace}-header {

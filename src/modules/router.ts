@@ -1,4 +1,3 @@
-import { __IS_DEV__ } from '@/configs'
 import type { App } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import { routes, handleHotUpdate } from 'vue-router/auto-routes'
